@@ -20,7 +20,7 @@ const restaurantSchema = mongoose.Schema({
     grade: String,
     score: Number
   }]
-});
+}); 
 
 // *virtuals* (http://mongoosejs.com/docs/guide.html#virtuals)
 // allow us to define properties on our object that manipulate
